@@ -1,0 +1,17 @@
+main:
+  - title: "Demo"
+    url: /demo
+  - title: "Manual"
+    url: /manual
+    
+manual:
+  - title: "Overview"
+    url: /manual
+  - title: "Positioning"
+    url: /manual/positioning
+  - title: "Handles"
+    url: /manual/handles
+  - title: "Graph"
+    url: /manual/graph
+  - title: "Demo"
+    url: /manual/demos
