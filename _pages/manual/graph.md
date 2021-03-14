@@ -12,13 +12,13 @@ sidebar:
 
 * Fit All  
 Frames all nodes in the graph into the current view
-* Reset Graph
-Completely clear all nodes and fills ones that are currently loaded
-* Minimap
+* Reset Graph  
+Completely clear all nodes and repopulate with the currently loaded scenes
+* Minimap  
 Show/Hides the minimap in the graph view
-* Import
+* Import  
 Imports the graph from a previously exported asset. This can also be done by double clicking a connector asset or dragging it onto the graph view.
-* Export
+* Export  
 Exports the graph into an asset. I suggest exporting your graph whenever you are happy with its state. This works well for source control combined with ignoring ConnectorGraphModel.cgmo file.
 
 ## Graph-View

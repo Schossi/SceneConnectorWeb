@@ -56,6 +56,9 @@ handles are deactivated
 As long as no Scene is chosen for a SceneConnector it only displays an arrow indicating its direction instead of the full handles. 
 
 ## Positioning
+
+This settings affects how connectors move their own or other loaded scenes when they are loaded or traversed.
+
 ### Static
 Static connectors are not moved during runtime.  
 When a static connector is opened during editing and the connectors don't line up it is aligned and marked dirty so you can save the corrected position.
