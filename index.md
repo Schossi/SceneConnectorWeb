@@ -4,8 +4,6 @@ header:
   image: /assets/images/splash.PNG
 ---
 
-![Logo](/assets/images/logo.png)
-
 Buildings, Walkers, Layers, Items, Services, Risks, ...
 
 The setup required to start even a simple grid based city builder can be quite daunting.  
