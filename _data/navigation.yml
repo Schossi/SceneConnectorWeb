@@ -7,11 +7,9 @@ main:
 manual:
   - title: "Overview"
     url: /manual
-  - title: "Positioning"
-    url: /manual/positioning
-  - title: "Handles"
-    url: /manual/handles
+  - title: "Connector"
+    url: /manual/connector
   - title: "Graph"
     url: /manual/graph
-  - title: "Demo"
-    url: /manual/demos
+  - title: "Extras"
+    url: /manual/extras
