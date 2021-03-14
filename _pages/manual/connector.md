@@ -59,13 +59,16 @@ As long as no Scene is chosen for a SceneConnector it only displays an arrow ind
 ### Static
 Static connectors are not moved during runtime.  
 When a static connector is opened during editing and the connectors don't line up it is aligned and marked dirty so you can save the corrected position.
-> when everything is already in the right place
+> when everything is already in the right place (Demo: Houses and Caves-Static)
+
 ### Dynamic
 A connector in dynamic mode is always the one that is moved whe paired with a static one. When paired with another dynamic connector the one that just got loaded is moved.  
 When traversed into a dynamic connector moves itself to the origin.  
 During editing dynamic connectors are aligned but not marked as dirty since being moved around is their natural state.
-> everything dynamic to keep the player close to center  
-individual scenes with dynamic connectors for tunnels, elevators, ...
+> make everything dynamic to keep the player close to center (Demo: Caves-Dynamic)  
+
+> individual scenes with dynamic connectors for tunnels, elevators, ... (Demo: Tunnel)
+
 ### Teleport
 Teleporting connections move align with their counterpart when loaded and reset to their original position when traversed into.
-> when a world is split by a single connection rather than a scene
+> when a world is split by a single connection rather than a scene (Demo: Caves-Static)

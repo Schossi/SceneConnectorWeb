@@ -25,4 +25,4 @@ Import this one if your just getting started or want to replicate some of the de
 
 ## Getting Started
 
-Please proceed with the Connector and Graph sections of this manual for some general information about the asset. Afterwards check out the Extras page which will guide you through the practical examples in the extras folder.
+Please proceed with the [Connector]({% link _pages/manual/connector.md %}) and [Graph]({% link _pages/manual/graph.md %}) sections of this manual for some general information about the asset. Afterwards check out the [Extras]({% link _pages/manual/extras.md %}) page which will walk you through the practical examples in the extras folder.
