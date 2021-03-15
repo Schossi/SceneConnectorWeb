@@ -6,6 +6,8 @@ sidebar:
   nav: manual
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TQknXCwNwqQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
 ## Welcome
 
 This is the manual for Scene Connector by SoftLeitner.  
