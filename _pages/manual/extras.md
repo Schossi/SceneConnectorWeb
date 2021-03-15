@@ -21,7 +21,9 @@ This does __not__ represent a regular use case. The graph wont work well because
 * Click "Set Build" in graph actions  
 * DoubleClick TunnelSideA in Graph  
 
-The tunnel demo shows a very simple use case in which the SceneConnector is called when the player enters and exits trigger areas. The TunnelSideX scenes are all static and therefore wont move, the tunnel scene however has dynamic connectors at both ends. This means that it will move to whatever end is currently loaded. When a player moves through the tunnel the following happens:  
+The tunnel demo shows a simple use case in which the SceneConnector is called when the player enters and exits trigger areas. The TunnelSideX scenes are all static and therefore wont move, the tunnel scene however has dynamic connectors at both ends. This means that it will move to whatever end is currently loaded. When a player moves through the tunnel the following happens:  
+
+![Tunnel](/assets/images/screens/TunnelTotal.PNG)  
 
 * Player starts in TunnelSideA
 * Player moves to entry of tunnel and enters area of TunnelSideA.Tunnel
@@ -65,12 +67,17 @@ Most connectors here are static except for the connectors between CaveChamberSid
 
 ### Portal
 
+![Portal](/assets/images/screens/Portal.PNG)  
+
+This prefab demonstrates a more advanced form of integrating connectors with both user interaction and animation. The portal triggers a load when the player either enters the area in front of it or shoots the shield. The blades are only opened when the shield has been shot and the scene loaded. If the player now moves through the portal into the new area it closes the blades, resets the shield and unloads everything behind it. When loaded as a counterpart the portal also hides its attached meshes until the original portal is unloaded. 
+
 ## Houses
 * Open Houses.asset  
 * Click "Set Build" in graph actions  
 * DoubleClick HousesEnvironment in Graph  
 
-I the houses demo multiple smaller side area are placed in a larger Environment which always stays loaded and active. This is useful when the side areas contain lots of different complex assets which don't have to be loaded unless the side area is entered.
+In the houses demo multiple smaller side area are placed in a larger Environment which always stays loaded and active. This is useful when the side areas contain lots of different complex assets which don't have to be loaded unless the side area is entered.
 
-### Door
+![House](/assets/images/screens/House.PNG)  
 
+The Houses have two trigger areas. The larger one on the outside causes the connector to load on enter and unload on exit. The smaller one thats mostly inside the house is hooked up to the door script. The door script itself is pretty simple. When the player enters its area and clicks it turns the handle. Only once the handle is turned and the scene inside is loaded does it actually open the door. When the player leaves it resets itself. Since the door area is much smaller than the house area the door should always be closed before the scene inside gets unloaded. 
