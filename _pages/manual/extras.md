@@ -6,7 +6,7 @@ sidebar:
   nav: manual
 ---
 
-# Demo
+## Demo
 The following steps restore the environment used to create the [Demo.]({% link _pages/demo.md %})
 
 * Open Extras.asset  
