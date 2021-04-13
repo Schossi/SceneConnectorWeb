@@ -27,3 +27,5 @@ visualize and manage scene connections
   * various convenience functions(bake lighting, set build scenes, ...)
 * SceneConnector __Extras__  
 easy to understand example setups with reusable components
+
+![LayoutKnight](/assets/images/screens/LayoutKnight.PNG)
