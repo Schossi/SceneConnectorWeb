@@ -15,6 +15,29 @@ The following steps restore the environment used to create the [Demo.]({% link _
 
 This does __not__ represent a regular use case. The graph wont work well because is contains all the different additional scenes of all the demos. You can however click play to basically enter the demo and the way the scenes are loaded in the menu might be interesting to some.  
 
+## Knight
+
+* Open Knight.asset  
+* Click "Set Build" in graph actions  
+* DoubleClick KnightStart in Graph  
+
+This demo showcases how moving between rooms in a metroidvania style sidescroller can be done using Scene Connector. 
+It consist of just a couple fairly simple parts. 
+
+#### Gate
+Handles fading in and out and triggering the actual scene loading. 
+The fade-out gets triggered when a player enters the attached PlayerArea. It then pauses the game, fades to black and calls Load on its Scene Connector.
+Fading back in happens in the Gate of the newly loaded scene and gets triggered by the Scene Connectors LoadedAsCounterpart Event. It moves the player to the new scene and traverses the SceneConnector which makes its scene active and unloads the old one and resumes the game after fading in fully.
+
+#### Knight
+Contains very basic rigidbody movement and animation.
+
+#### Map
+Hooks into the activeSceneChanged event and sets its gameobject active when the assigned scene is active.
+
+#### Squire
+Moves the camera to keep the knight centered while respecting the area specified in the inspector. While the squire is selected a red border shows this area in the scene view.
+
 ## Tunnel
 
 * Open Tunnel.asset  
