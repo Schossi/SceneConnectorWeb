@@ -7,6 +7,8 @@ main:
 manual:
   - title: "Overview"
     url: /manual
+  - title: "Release Notes"
+    url: /manual/releases
   - title: "Connector"
     url: /manual/connector
   - title: "Graph"
