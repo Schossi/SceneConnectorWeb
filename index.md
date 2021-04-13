@@ -28,4 +28,6 @@ visualize and manage scene connections
 * SceneConnector __Extras__  
 easy to understand example setups with reusable components
 
-![LayoutKnight](/assets/images/screens/LayoutKnight.PNG)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4NaerhQ5z3Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+<br/>
+![LayoutKnight](/assets/images/screens/LayoutKnight.PNG)  
