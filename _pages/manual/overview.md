@@ -25,6 +25,12 @@ Always import this one.
 Contains all the examples showcased in the demo along with some useful common scripts.  
 Import this one if your just getting started or want to replicate some of the demos behaviour.  
 
+## Integrations
+
+- [AdventureSouls(Action Adventure Kit)](https://github.com/Schossi/ConnectorSouls)
+
+All GitHub repositories related to my unity assets can be found in the [Softleitner Extras](https://github.com/stars/Schossi/lists/softleitner-extras) list. I generally try to keep the main ones updated but some of the minor ones may be out of date.
+
 ## Getting Started
 
 Please proceed with the [Connector]({% link _pages/manual/connector.md %}) and [Graph]({% link _pages/manual/graph.md %}) sections of this manual for some general information about the asset. Afterwards check out the [Extras]({% link _pages/manual/extras.md %}) page which will walk you through the practical examples in the extras folder.
