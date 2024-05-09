@@ -6,6 +6,10 @@ sidebar:
   nav: manual
 ---
 
+## 1.0.3
+
+Raises minimum recommended version to Unity 2021 and improves compatibility for 2022.
+
 ## 1.0.2
 
 Various smaller changes made for the AdventureSouls Scene Connector integration example. The example is called ConnectorSouls and can be found on [GitHub](https://github.com/Schossi/ConnectorSouls)!  
