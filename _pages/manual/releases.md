@@ -6,6 +6,10 @@ sidebar:
   nav: manual
 ---
 
+## 1.0.4
+
+Improves compatibility for Unity 6, nothing major just warnings.
+
 ## 1.0.3
 
 Raises minimum recommended version to Unity 2021 and improves compatibility for 2022.
